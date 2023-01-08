@@ -4,11 +4,59 @@
     box-sizing:border-box;
 }
 
+
 body {
     background: beige;
 }
 
+
 header {
     background: yellow;
-    height: 200px;
+}
+
+
+.logo {
+    max-width: 650pt;
+    margin: 0pt auto;
+    background: fuchsia;
+}
+
+
+#logo {
+    width: 100pt;
+}
+
+
+#wrapper {
+    max-width: 650pt;
+    margin: 15pt auto;
+}
+
+
+#hero {
+    height: 200pt;
+    background: red;
+    margin-bottom: 15pt;
+}
+
+
+main {
+    width: 62%;
+    height: 300pt;
+    background: lightblue;
+    float: left;
+}
+
+
+aside {
+    width: 35%;
+    height: 225pt;
+    background: lightsalmon;
+    float: right;
+}
+
+footer {
+    height: 45pt;
+    background: lightgray;
+    clear: both;
 }
