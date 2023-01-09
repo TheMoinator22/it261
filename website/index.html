@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,60 @@
     <title>Home Page</title>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
-    
+
 
     <header>
         <div class="logo">
+
+
             <a href="index.html">
-            <img id="logo" src="images/phplogo.png" alt="logo">
+                <img id="logo" src="images/phplogo.png" alt="logo">
             </a>
+
+
+            <nav>
+                <ul>
+
+                    <li>
+                        <a href="">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Daily
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Project
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Contact
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            Gallery
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
         </div>
         <!-- end logo -->
 
@@ -25,17 +72,68 @@
 
 
         <div id="hero">
-
+            <img src="images/phplogo.png" alt="logo acting as placeholder">
         </div>
         <!-- end hero -->
 
 
         <main>
+            <h1>
+                Welcome to our programming class!
+            </h1>
+
+            <h2>
+                We are going to learn PHP!
+            </h2>
+
+            <p>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore
+                eu fugiat nulla pariatur. Excepteur
+                sint occaecat cupidatat non
+                proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+            </p>
+            
+            <h2>
+                Now for some text in English
+            </h2>
+
+            <p>
+                I hopped off the plane at LAX
+                with a dream and my cardigan
+                welcome to the land of fame excess
+                am I gonna fit in
+                jumped in the cab, here i am for the first time
+                look to my right, and I see the hollywood sign
+                this is all so crazy
+                everybody seems so famous
+            </p>
 
         </main>
 
 
         <aside>
+
+            <h3>
+                This is our header in our aside
+            </h3>
+
+            <p>
+                My tummy's turnin' and I'm feelin' kinda homesick
+                too much pressure and I'm nervous
+                that's when the taxi man turned on the radio
+                and a Jay-Z song was on
+                and a Jay-Z song was on
+                and a Jay-Z song was on
+            </p>
 
         </aside>
 
@@ -45,9 +143,27 @@
 
 
     <footer>
+        <ul>
+            <li>Copyright &copy;
+                2022</li>
 
+            <li>All Rights Reserved</li>
+
+            <li><a href="../index.php">Web Design by YOUR NAME</a></li>
+
+            <li><a id="html-checker" href="#">HTML Validation</a></li>
+
+            <li><a id="css-checker" href="#">CSS Validation</a></li>
+
+        </ul>
+
+        <script>
+            document.getElementById("html-checker").setAttribute("href", "https://validator.w3.org/nu/?doc=" + location.href);
+            document.getElementById("css-checker").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
     </footer>
 
 
 </body>
+
 </html>
