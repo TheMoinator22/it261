@@ -94,7 +94,7 @@
             <h4> Week 2 </h4>
             <ul>
                 <li>
-                    <a href="">var.php</a>
+                    <a href="weeks/week 2/var.php">var.php</a>
                 </li>
 
                 <li>
