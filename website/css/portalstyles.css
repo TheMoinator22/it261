@@ -71,7 +71,7 @@ main h2 {
 
 img {
     clear: both;
-    width: 500pt;   
+    width: 400pt;   
 }
 
 
@@ -80,6 +80,27 @@ img {
     margin-bottom: 15pt;
     padding-top: 25pt;
     clear: both;
+}
+
+
+footer {
+    height: 45pt;
+    line-height: 45pt;
+    background: cornflowerblue;
+    clear: both;
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+footer li {
+    justify-content: center;
+    margin: 0 10pt;
 }
 
 /* typography */

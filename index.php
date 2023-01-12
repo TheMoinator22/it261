@@ -98,15 +98,19 @@
                 </li>
 
                 <li>
-                    <a href="">ex 2</a>
+                    <a href="">vars2.php</a>
                 </li>
 
                 <li>
-                    <a href="">ex 3</a>
+                    <a href="">currency-logic.php</a>
                 </li>
 
                 <li>
-                    <a href="">ex 3</a>
+                    <a href="">currency.php</a>
+                </li>
+                
+                <li>
+                    <a href="">heredoc.php</a>
                 </li>
             </ul>
 
@@ -120,6 +124,25 @@
         <img src="website/images/code_01082023_1.png" alt="My MAMP localhost showing my website">
         <img src="website/images/code_01082023_2.png" alt="MAMP showing an error">
     </div>
+    <!-- end photos -->
+
+
+    <footer>
+        <ul>
+            <li>Copyright &copy;
+                2022
+            </li>
+            <li>All Rights Reserved</li>
+            <li><a href="../index.php">Web Design by YOUR NAME</a></li>
+            <li><a id="html-checker" href="#">HTML Validation</a></li>
+            <li><a id="css-checker" href="#">CSS Validation</a></li>
+        </ul>
+
+        <script>
+            document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+            document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+    </footer>
 
 </body>
 </html>
