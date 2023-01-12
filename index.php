@@ -114,8 +114,12 @@
     </div>
     <!-- close wrapper -->
 
-    <img src="website/images/code_01082023_1.png" alt="My MAMP localhost showing my website">
-    <img src="website/images/code_01082023_2.png" alt="MAMP showing an error">
-    
+
+    <div id="photos">
+        <h4>Photos for Week 1</h4>
+        <img src="website/images/code_01082023_1.png" alt="My MAMP localhost showing my website">
+        <img src="website/images/code_01082023_2.png" alt="MAMP showing an error">
+    </div>
+
 </body>
 </html>

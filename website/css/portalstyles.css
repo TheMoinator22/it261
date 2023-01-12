@@ -69,6 +69,19 @@ main h2 {
 }
 
 
+img {
+    clear: both;
+    width: 500pt;   
+}
+
+
+#photos {
+    margin-left: 150pt;
+    margin-bottom: 15pt;
+    padding-top: 25pt;
+    clear: both;
+}
+
 /* typography */
 h1 {
     text-align: center;
@@ -92,10 +105,4 @@ h3 {
 
 h4 {
     font-size: 1em;
-}
-
-
-img {
-    clear: both;
-    width: 500pt;
 }
