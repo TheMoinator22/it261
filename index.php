@@ -91,7 +91,7 @@
                 Weekly Class Exercizes
             </h3>
 
-            <h4> Week 2 <h4>
+            <h4> Week 2 </h4>
             <ul>
                 <li>
                     <a href="">var.php</a>
@@ -133,7 +133,7 @@
                 2022
             </li>
             <li>All Rights Reserved</li>
-            <li><a href="../index.php">Web Design by YOUR NAME</a></li>
+            <li><a href="index.php">Web Design by JHW</a></li>
             <li><a id="html-checker" href="#">HTML Validation</a></li>
             <li><a id="css-checker" href="#">CSS Validation</a></li>
         </ul>
