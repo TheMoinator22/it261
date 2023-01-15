@@ -98,7 +98,7 @@
                 </li>
 
                 <li>
-                    <a href="">vars2.php</a>
+                    <a href="weeks/week 2/vars2.php">vars2.php</a>
                 </li>
 
                 <li>
