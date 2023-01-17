@@ -8,7 +8,7 @@
     <link href="website/css/portalstyles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-</header>
+<header>
     <h1>
         <a href="index.php">
             JHW's Portal Page
