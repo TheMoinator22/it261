@@ -8,7 +8,7 @@
     <link href="website/css/portalstyles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-
+</header>
     <h1>
         <a href="index.php">
             JHW's Portal Page
@@ -63,6 +63,7 @@
 
             </ul>
         </nav>
+</header>
 
         <main>
             <h2>
@@ -94,23 +95,23 @@
             <h4> Week 2 </h4>
             <ul>
                 <li>
-                    <a href="weeks/week 2/var.php">var.php</a>
+                    <a href="weeks/week2/var.php">var.php</a>
                 </li>
 
                 <li>
-                    <a href="weeks/week 2/vars2.php">vars2.php</a>
+                    <a href="weeks/week2/vars2.php">vars2.php</a>
                 </li>
 
                 <li>
-                    <a href="">currency-logic.php</a>
+                    <a href="weeks/week2/currency-logic.php">currency-logic.php</a>
                 </li>
 
                 <li>
-                    <a href="">currency.php</a>
+                    <a href="weeks/week2/currency.php">currency.php</a>
                 </li>
                 
                 <li>
-                    <a href="">heredoc.php</a>
+                    <a href="weeks/week2/heredoc.php">heredoc.php</a>
                 </li>
             </ul>
 
