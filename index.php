@@ -63,8 +63,8 @@
         </nav>
 </header>
 
-        <main>
         <div id="wrapper">
+        <main>
             <h2>
                 About JHW
             </h2>
