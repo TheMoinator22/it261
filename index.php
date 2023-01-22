@@ -19,8 +19,6 @@
         The navigation below represents our big assignments
     </h2>
 
-    <div id="wrapper">
-
         <nav>
 
             <ul>
@@ -66,6 +64,7 @@
 </header>
 
         <main>
+        <div id="wrapper">
             <h2>
                 About JHW
             </h2>
@@ -115,9 +114,30 @@
                 </li>
             </ul>
 
+
+            <h4> Week 3 </h4>
+            <ul>
+                <li>
+                    <a href="weeks/week3/if.php">if.php</a>
+                </li>
+
+                <li>
+                    <a href="">2</a>
+                </li>
+
+                <li>
+                    <a href="">3</a>
+                </li>
+
+                <li>
+                    <a href="">4</a>
+                </li>
+                
+                <li>
+                    <a href="">5</a>
+                </li>
+            </ul>
         </aside>
-    </div>
-    <!-- close wrapper -->
 
 
     <div id="photos">
@@ -127,7 +147,8 @@
     </div>
     <!-- end photos -->
 
-
+    </div>
+    <!-- close wrapper -->
     <footer>
         <ul>
             <li>Copyright &copy;
