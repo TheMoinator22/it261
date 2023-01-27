@@ -122,11 +122,11 @@
                 </li>
 
                 <li>
-                    <a href="weeks/week3/date.php">2</a>
+                    <a href="weeks/week3/date.php">date.php</a>
                 </li>
 
                 <li>
-                    <a href="">3</a>
+                    <a href="weeks/week3/for-each.php">for-each.php</a>
                 </li>
 
                 <li>
