@@ -12,9 +12,8 @@ body {
 
 
 #wrapper {
-    max-width: 400pt;
+    max-width: 750pt;
     margin: 15pt auto;
-    margin-left: 150pt;
     
 }
 
@@ -49,13 +48,13 @@ main img {
 
 
 main {
-    width: 65%;
+    width: 62%;
     float: left;
 }
 
 
 aside {
-    width: 35%;
+    width: 22%;
     float: right;
 }
 
@@ -80,7 +79,6 @@ img {
 
 
 #photos {
-    margin-left: 150pt;
     margin-bottom: 15pt;
     padding-top: 25pt;
     clear: both;

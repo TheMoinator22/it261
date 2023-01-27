@@ -8,16 +8,16 @@
     <link href="website/css/portalstyles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <h1>
-        <a href="index.php">
-            JHW's Portal Page
-        </a>
-    </h1>
+    <header>
+        <h1>
+            <a href="index.php">
+                JHW's Portal Page
+            </a>
+        </h1>
 
-    <h2>
-        The navigation below represents our big assignments
-    </h2>
+        <h2>
+            The navigation below represents our big assignments
+        </h2>
 
         <nav>
 
@@ -61,10 +61,10 @@
 
             </ul>
         </nav>
-</header>
+    </header>
 
+    <div id="wrapper">
         <main>
-        <div id="wrapper">
             <h2>
                 About JHW
             </h2>
@@ -122,7 +122,7 @@
                 </li>
 
                 <li>
-                    <a href="">2</a>
+                    <a href="weeks/week3/date.php">2</a>
                 </li>
 
                 <li>
@@ -146,9 +146,9 @@
         <img src="website/images/code_01082023_2.png" alt="MAMP showing an error">
     </div>
     <!-- end photos -->
-
     </div>
     <!-- close wrapper -->
+
     <footer>
         <ul>
             <li>Copyright &copy;
