@@ -130,11 +130,15 @@
                 </li>
 
                 <li>
-                    <a href="">4</a>
+                    <a href="weeks/week3/index.php">index.php</a>
                 </li>
                 
                 <li>
-                    <a href="">5</a>
+                    <a href="weeks/week3/for-loop.php">for-loop.php</a>
+                </li>
+
+                <li>
+                    <a href="weeks/week3/switch.php">switch.php</a>
                 </li>
             </ul>
         </aside>

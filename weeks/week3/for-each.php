@@ -34,3 +34,19 @@ foreach($shows as $key => $value) {
     echo '<li><b> '.$key.'</b>; '.$value.' </li>';
 }
 echo '</ul>';
+
+
+echo '<h2> Time for our navigation that will again have both a key and a value </h2>';
+$nav = array(
+    '../../index.php' => 'Home',
+    'about.php' => 'About',
+    'daily.php' => 'Daily',
+    'project.php' => 'Project',
+    'contact.php' => 'Contact',
+    'gallery.php' => 'Gallery',
+);
+echo '<ul>';
+foreach($nav as $key => $value) {
+    echo '<li> <a href="'.$key.'"> '.$value.' </a> </li>';
+}
+echo '</ul>';
