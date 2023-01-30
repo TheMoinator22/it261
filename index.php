@@ -24,7 +24,7 @@
             <ul>
 
                 <li>
-                    <a href="">
+                    <a href="website/daily.php">
                         Switch
                     </a>
                 </li>
