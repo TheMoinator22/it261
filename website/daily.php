@@ -58,7 +58,6 @@ include('./includes/header.php')
 </div>
 <!-- end wrapper -->
 
-
 <?php
 if($today == 'Monday') {
     ?>
