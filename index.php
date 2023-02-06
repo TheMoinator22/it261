@@ -169,6 +169,35 @@
                     <a href="weeks/week4/celcius.php">celcius.php</a>
                 </li>
             </ul>
+
+
+            <h4> Week 5 </h4>
+            <ul>
+                <li>
+                    <a href="weeks/week5/currency1.php">currency1.php</a>
+                </li>
+
+                <li>
+                    <a href="weeks/week5/currency2.php">currency2.php</a>
+                </li>
+
+                <li>
+                    <a href="">3</a>
+                </li>
+
+                <li>
+                    <a href="">4</a>
+                </li>
+                
+                <li>
+                    <a href="">5</a>
+                </li>
+
+                <li>
+                    <a href="">6</a>
+                </li>
+            </ul>
+
         </aside>
 
 
