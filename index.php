@@ -182,11 +182,11 @@
                 </li>
 
                 <li>
-                    <a href="">3</a>
+                    <a href="weeks/week5/currency3.php">currency3.php</a>
                 </li>
 
                 <li>
-                    <a href="">4</a>
+                    <a href="weeks/week5/null.php">null.php</a>
                 </li>
                 
                 <li>
