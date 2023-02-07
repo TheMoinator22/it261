@@ -189,13 +189,6 @@
                     <a href="weeks/week5/null.php">null.php</a>
                 </li>
                 
-                <li>
-                    <a href="">5</a>
-                </li>
-
-                <li>
-                    <a href="">6</a>
-                </li>
             </ul>
 
         </aside>
