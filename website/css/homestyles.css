@@ -127,6 +127,11 @@ footer li {
 }
 
 
+aside img {
+    max-width: 100%;
+}
+
+
 /* 
 img {
     max-width: 100%

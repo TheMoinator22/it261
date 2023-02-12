@@ -110,12 +110,6 @@ include('./includes/header.php')
 
 
     <aside>
-        <style>
-            img {
-                max-width: 100%;
-            }
-        </style>
-
         <img src="images/<?php echo $pic;?>" alt="<?php echo $alt;?>">       
     </aside>
 
