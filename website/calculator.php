@@ -83,9 +83,21 @@
                 $hours_daily = floatval($_POST['hours_daily']);
                 $gas_price = floatval($_POST['gas_price']);
                 $mpg = floatval($_POST['mpg']);
-                $hours_driving = $hours_daily / $mph;
+                if($mph == 0) {
+                    $mph = 1;
+                }
+                $hours_driving = $total_miles / $mph;
+
+                if($hours_daily == 0) {
+                    $hours_daily = 1;
+                }
                 $days_driving = $hours_driving / $hours_daily;
+
+                if($mpg == 0) {
+                    $mpg = 1;
+                }
                 $fuel_amount = $total_miles / $mpg;
+                
                 $gas_cost = $fuel_amount * $gas_price;
 
                 if(!empty($name && $total_miles && $mph && $hours_daily && $gas_price && $mpg)) {
