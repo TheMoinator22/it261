@@ -6,7 +6,42 @@
 }
 
 
-body {
+/* body {
+    background: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+
+.home {
+    background: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.about-inner {
+    background: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.daily-inner {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.project-inner {
+    background: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.contact-inner {
+    background: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.gallery-inner {
     background: beige;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

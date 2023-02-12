@@ -9,31 +9,31 @@ switch(THIS_PAGE) {
 
     case 'about.php' : 
     $title = 'About Page of our Website Project';
-    $body = 'about inner';
+    $body = 'about-inner';
     break;
 
 
     case 'daily.php' : 
     $title = 'Daily Page of our Website Project';
-    $body = 'daily inner';
+    $body = 'daily-inner';
     break;
 
 
     case 'project.php' : 
     $title = 'Project Page of our Website Project';
-    $body = 'project inner';
+    $body = 'project-inner';
     break;
 
 
     case 'contact.php' : 
     $title = 'Contact Page of our Website Project';
-    $body = 'contact inner';
+    $body = 'contact-inner';
     break;
 
 
     case 'gallery.php' : 
     $title = 'Gallery Page of our Website Project';
-    $body = 'gallery inner';
+    $body = 'gallery-inner';
     break;
 }
 
