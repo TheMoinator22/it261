@@ -10,6 +10,8 @@ $regions_error = '';
 $privacy_error = '';
 $comments_error = '';
 
+ob_start();
+
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if(empty($_POST['wines'])) {
@@ -94,9 +96,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         Comments: '.$comments.'  '.PHP_EOL.'
         ';
 
-        mail($to, $subject, $body);
+        if(!empty($first_name && $last_name && $email && $phone && $gender && $regions && $wines && $comments)) {
+            mail($to, $subject, $body);
+            header('Location:thx.php');
+        } // end empty
 
-        header('Location:thx.php');
     } // end isset
 
 } // end server request
