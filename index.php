@@ -194,7 +194,7 @@
             <h4> Week 6 </h4>
             <ul>
                 <li>
-                    <a href="weeks/week6/form.php">form2.php</a>
+                    <a href="weeks/week6/form.php">form.php</a>
                 </li>
 
                 <li>
@@ -202,7 +202,7 @@
                 </li>
 
                 <li>
-                    <a href="">3</a>
+                    <a href="weeks/week6/functions.php">functions.php</a>
                 </li>
 
                 <li>

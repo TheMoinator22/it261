@@ -66,9 +66,23 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $regions = $_POST['regions'];
     }// end empty
 
+    // wines function
+    function my_wines($wines) {
+        $my_return = '';
+
+        if(!empty($_POST['wines'])) {
+            $my_return = implode(', ', $_POST['wines']);
+        } else {
+            $wines_error = 'please choose wines';
+        } // end empty
+
+        return $my_return;
+
+    } // end function
+
     if(isset($_POST['first_name'], $_POST['last_name'], $_POST['email'], $_POST['phone'], $_POST['gender'], $_POST['wines'], $_POST['regions'], $_POST['comments'], $_POST['privacy'])) {
         $to = 'themoinator22@gmail.com';
-        $subject = 'Test email on' .date('m/d/y, h i A');
+        $subject = 'Test email on ' .date('m/d/y, h i A');
         $body = '
         First name: '.$first_name.' '.PHP_EOL.'
         Last name: '.$last_name.'  '.PHP_EOL.'
@@ -76,6 +90,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         Phone number: '.$phone.'  '.PHP_EOL.'
         Gender: '.$gender.'  '.PHP_EOL.'
         Region: '.$regions.'  '.PHP_EOL.'
+        Wines: '.my_wines($wines).'  '.PHP_EOL.'
         Comments: '.$comments.'  '.PHP_EOL.'
         ';
 
