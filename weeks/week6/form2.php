@@ -108,8 +108,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         ';
 
         $headers = array(
-            'from' => 'noreply@bluehost.com';
-        )
+            'from' => 'noreply@bluehost.com',
+        );
 
         if(!empty($first_name && $last_name && $email && $phone && $gender && $regions && $wines && $comments)) {
             mail($to, $subject, $body, $headers);
