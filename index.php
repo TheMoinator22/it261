@@ -204,10 +204,6 @@
                 <li>
                     <a href="weeks/week6/functions.php">functions.php</a>
                 </li>
-
-                <li>
-                    <a href="">4</a>
-                </li>
             </ul>
 
         </aside>
