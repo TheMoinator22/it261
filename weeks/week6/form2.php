@@ -1,5 +1,15 @@
 <?php
 
+$first_name = '';
+$last_name = '';
+$email = '';
+$phone = '';
+$gender = '';
+$wines = '';
+$regions = '';
+$privacy = '';
+$comments = '';
+
 $first_name_error = '';
 $last_name_error = '';
 $email_error = '';
@@ -68,6 +78,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $regions = $_POST['regions'];
     }// end empty
 
+
     // wines function
     function my_wines($wines) {
         $my_return = '';
@@ -96,8 +107,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         Comments: '.$comments.'  '.PHP_EOL.'
         ';
 
+        $headers = array(
+            'from' => 'noreply@bluehost.com'
+        )
+
         if(!empty($first_name && $last_name && $email && $phone && $gender && $regions && $wines && $comments)) {
-            mail($to, $subject, $body);
+            mail($to, $subject, $body, $headers);
             header('Location:thx.php');
         } // end empty
 
