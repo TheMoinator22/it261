@@ -188,7 +188,26 @@
                 <li>
                     <a href="weeks/week5/null.php">null.php</a>
                 </li>
-                
+            </ul>
+
+
+            <h4> Week 6 </h4>
+            <ul>
+                <li>
+                    <a href="weeks/week6/form.php">form2.php</a>
+                </li>
+
+                <li>
+                    <a href="weeks/week6/form2.php">form2.php</a>
+                </li>
+
+                <li>
+                    <a href="">3</a>
+                </li>
+
+                <li>
+                    <a href="">4</a>
+                </li>
             </ul>
 
         </aside>
