@@ -70,7 +70,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     } // end function
 
     if(isset($_POST['name'], $_POST['email'], $_POST['phone'], $_POST['plush'], $_POST['region'], $_POST['privacy'])) {
-        $to = 'themoinator22@gmail.com';
+        $to = 'szemeo@mystudentswa.com';
         $subject = 'Test email on '.date('m/d/y, h i A');
         $body = '
         Name: '.$name.' '.PHP_EOL.'
