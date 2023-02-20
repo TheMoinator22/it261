@@ -55,7 +55,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     // } // end empty
 
     if(empty($_POST['phone'])) { // if empty, type in your number
-        $phone_err = 'Please fill out your phone number.';
+        $phone_error = 'Please fill out your phone number.';
     } elseif(array_key_exists('phone', $_POST)) {
         if(!preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $_POST['phone'])) {
             // if you are not typing the requested format of xxx-xxx-xxxx, display Invalid format
