@@ -214,11 +214,15 @@
                 </li>
 
                 <li>
-                    <a href=""></a>
+                    <a href="weeks/week7/strings.php">strings.php</a>
                 </li>
 
                 <li>
-                    <a href=""></a>
+                    <a href="weeks/week7/pictures.php">pictures.php</a>
+                </li>
+
+                <li>
+                    <a href="weeks/week7/rand.php">rand.php</a>
                 </li>
             </ul>
 

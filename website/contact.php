@@ -36,11 +36,16 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $name = $_POST['name'];
     } // end empty
 
-    if(empty($_POST['phone'])) {
+    if(empty($_POST['phone'])) { // if empty, type in your number
         $phone_error = 'Please fill out your phone number.';
-    } else {
-        $phone = $_POST['phone'];
-    } // end empty
+    } elseif(array_key_exists('phone', $_POST)) {
+        if(!preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $_POST['phone'])) {
+            // if you are not typing the requested format of xxx-xxx-xxxx, display Invalid format
+            $phone_error = 'Invalid format!';
+        } else{
+            $phone = $_POST['phone'];
+        } // end else
+    } // end main if
 
     if(empty($_POST['privacy'])) {
         $privacy_error = 'Please agree to the privacy policy.';
@@ -84,7 +89,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             'from' => 'noreply@bluehost.com',
         );
 
-        if(!empty($name && $email && $phone && $region && $plush)) {
+        if(!empty($name && $email && $phone && $region && $plush) && preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $_POST['phone'])) {
             mail($to, $subject, $body, $headers);
             header('Location:thx.php');
         } // end empty
