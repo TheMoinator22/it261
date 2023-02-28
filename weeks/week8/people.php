@@ -19,7 +19,7 @@ if(mysqli_num_rows($result) > 0) {
                 <li><b>Last Name:</b> '.$row['last_name'].' </li>
                 <li><b>Birth Year:</b> '.$row['birthdate'].' </li>
             </ul>
-            <p>For more information about '.$row['first_name'].', click <a href="">here</a></p>
+            <p>For more information about '.$row['first_name'].', click <a href="people-view.php?id='.$row['people_id'].' ">here</a></p>
         ';
 
     } // end while
