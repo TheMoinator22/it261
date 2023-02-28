@@ -98,6 +98,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 } // end server request
 
+include('./includes/header.php')
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -159,3 +161,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     </form>
 </body>
 </html>
+
+<?php
+include('./includes/footer.php');
+?>

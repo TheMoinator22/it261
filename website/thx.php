@@ -1,3 +1,7 @@
+<?php
+include('./includes/header.php')
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,3 +15,7 @@
     <h1>Thank you for filling out our form!</h1>
 </body>
 </html>
+
+<?php
+include('./includes/footer.php');
+?>

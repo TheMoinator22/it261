@@ -42,7 +42,7 @@
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="website/contact.php">
                         Email
                     </a>
                 </li>
