@@ -230,7 +230,7 @@
             <h4> Week 8 </h4>
             <ul>
                 <li>
-                    <a href="weeks/week"></a>
+                    <a href="weeks/week8/people.php">people.php</a>
                 </li>
 
                 <li>
