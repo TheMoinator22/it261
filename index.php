@@ -226,6 +226,26 @@
                 </li>
             </ul>
 
+
+            <h4> Week 8 </h4>
+            <ul>
+                <li>
+                    <a href="weeks/week"></a>
+                </li>
+
+                <li>
+                    <a href="weeks/week"></a>
+                </li>
+
+                <li>
+                    <a href="weeks/week"></a>
+                </li>
+
+                <li>
+                    <a href="weeks/week"></a>
+                </li>
+            </ul>
+
         </aside>
 
 
