@@ -102,8 +102,7 @@ include('./includes/header.php')
 
 ?>
 
-
-<body>
+<!-- <body> -->
 
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
         <fieldset>
@@ -152,8 +151,8 @@ include('./includes/header.php')
 
         </fieldset>
     </form>
-</body>
-</html>
+<!-- </body>
+</html> -->
 
 <?php
 include('./includes/footer.php');

@@ -54,7 +54,7 @@
                 </li>
 
                 <li>
-                    <a href="">
+                    <a href="website/gallery.php">
                         Gallery
                     </a>
                 </li>

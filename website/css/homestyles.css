@@ -167,6 +167,22 @@ aside img {
 }
 
 
+table img {
+    max-width: 100%;
+}
+
+
+table {
+    border: 3px solid cadetblue;
+    border-collapse: collapse;
+}
+
+
+td {
+    border: 3px solid cadetblue;
+}
+
+
 /* 
 img {
     max-width: 100%
