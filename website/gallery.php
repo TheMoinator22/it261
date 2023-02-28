@@ -14,10 +14,10 @@ $character['Kuromi'] = 'kurom_kurom-plush_Kuromi is a tomboy, but behind her tou
 <table>
     <?php foreach($character as $name => $image): ?>
         <tr>
-            <td><image src="images/<?php echo substr($image, 0, 5) ?>.jpg" alt="<?php echo str_replace('_', ' ', $name); ?>"></td>
+            <td><img src="images/<?php echo substr($image, 0, 5) ?>.jpg" alt="<?php echo str_replace('_', ' ', $name); ?>"></td>
             <td><?php echo str_replace('_', ' ', $name); ?></td>
             <td><?php echo substr($image, 18) ?></td>
-            <td><image src="images/<?php echo substr($image, 6, 11) ?>.jpg" alt="<?php echo str_replace('_', ' ', $name); ?> plush"></td>
+            <td><img src="images/<?php echo substr($image, 6, 11) ?>.jpg" alt="<?php echo str_replace('_', ' ', $name); ?> plush"></td>
         </tr>
     <?php endforeach; ?>
 </table>
