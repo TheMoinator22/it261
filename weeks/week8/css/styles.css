@@ -31,6 +31,12 @@ aside {
 }
 
 
+aside img {
+    display: block;
+    margin: 10px auto;
+}
+
+
 footer {
     clear: both;
 }
