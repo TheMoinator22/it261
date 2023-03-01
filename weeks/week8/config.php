@@ -16,3 +16,12 @@ function myError($myFile, $myLine, $errorMsg) {
     } // end defines
   
 } // end myError
+
+$photos[0] = 'photo1';
+$photos[1] = 'photo2';
+$photos[2] = 'photo3';
+$photos[3] = 'photo4';
+$photos[4] = 'photo5';
+$i = rand(0, 4);
+$selected_photo = ''.$photos[$i].'.jpg ';
+echo '<img src="images/'.$selected_photo.'" alt="'.$photos[$i].'" >';

@@ -1,0 +1,12 @@
+/* styles for my people and people-view exercise */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: lightyellow;
+}
