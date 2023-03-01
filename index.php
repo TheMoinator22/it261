@@ -236,14 +236,6 @@
                 <li>
                     <a href="weeks/week8/people-view.php">people-view.php</a>
                 </li>
-
-                <li>
-                    <a href="weeks/week"></a>
-                </li>
-
-                <li>
-                    <a href="weeks/week"></a>
-                </li>
             </ul>
 
         </aside>
