@@ -5,7 +5,7 @@
 
         <li>All Rights Reserved</li>
 
-        <li><a href="../index.php">Web Design by JHW</a></li>
+        <li><a href="../../index.php">Web Design by JHW</a></li>
 
         <li><a id="html-checker" href="#">HTML Validation</a></li>
 

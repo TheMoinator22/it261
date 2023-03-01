@@ -15,7 +15,7 @@ body {
 
 #wrapper {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 30 auto;
 }
 
 
@@ -33,4 +33,26 @@ aside {
 
 footer {
     clear: both;
+}
+
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+
+li p {
+    margin: 15px 0 20px 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+
+h1, h2 {
+    margin-bottom: 10px;
 }

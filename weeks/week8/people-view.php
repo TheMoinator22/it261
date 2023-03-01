@@ -55,5 +55,17 @@ include('./includes/header.php');
     <aside>
         <h3>This is my aside</h3>
     </aside>
+
+    <?php
+        // now we are going to release the server
+        @mysqli_free_result($result);
+
+        // now we are going to close the connection
+        @mysqli_close($iConn);
+    ?>
+    
 </div>
 <!-- end wrapper -->
+
+<?php
+include('./includes/footer.php');
