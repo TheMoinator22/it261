@@ -49,7 +49,7 @@ include('./includes/header.php');
             <li>'.$details.'</li>
             ';?>
         </ul>
-        <p><a href="people.php">Return to the people page</p>
+        <p><a href="people.php">Return to the people page</a></p>
     </main>
 
     <aside>
