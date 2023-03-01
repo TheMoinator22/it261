@@ -234,7 +234,7 @@
                 </li>
 
                 <li>
-                    <a href="weeks/week"></a>
+                    <a href="weeks/week8/people-view.php">people-view.php</a>
                 </li>
 
                 <li>
