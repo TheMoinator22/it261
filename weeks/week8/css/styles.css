@@ -1,5 +1,6 @@
 /* styles for my people and people-view exercise */
 
+
 * {
     padding: 0;
     margin: 0;
@@ -9,4 +10,22 @@
 
 body {
     background: lightyellow;
+}
+
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+main {
+    float: left;
+    width: 62%;
+}
+
+
+aside {
+    float: right;
+    width: 35%;
 }
