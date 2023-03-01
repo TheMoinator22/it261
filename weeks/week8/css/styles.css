@@ -36,6 +36,19 @@ footer {
 }
 
 
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer li {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+
 p {
     margin-bottom: 20px;
     line-height: 1.4;
