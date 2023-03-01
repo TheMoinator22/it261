@@ -56,7 +56,7 @@ include('./includes/header.php');
         <h3>This is my aside</h3>
 
         <figure>
-            <img src="./images/<?php echo $id?>.jpg" alt="<?php echo $first_name ?>">
+            <img src="./images/people<?php echo $id?>.jpg" alt="<?php echo $first_name ?>">
             <figcaption>
                 <?php echo '
                     '.$first_name.' '.$last_name.', '.$occupation.'
