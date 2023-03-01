@@ -54,6 +54,18 @@ include('./includes/header.php');
 
     <aside>
         <h3>This is my aside</h3>
+
+        <figure>
+            <img src="images/<?php echo $id?>.jpg" alt="<?php echo $first_name ?>">
+            <figcaption>
+                <?php echo '
+                    '.$first_name.' '.$last_name.', '.$occupation.'
+                ';?>
+            </figcaption>
+        </figure>
+
+        <p><i><?php echo $blurb ?></i></p>
+
     </aside>
 
     <?php
@@ -63,7 +75,7 @@ include('./includes/header.php');
         // now we are going to close the connection
         @mysqli_close($iConn);
     ?>
-    
+
 </div>
 <!-- end wrapper -->
 
