@@ -39,6 +39,17 @@ include('./includes/header.php');
     <main>
         <h1>Welcome to Our People View Page!</h1>
         <h2>Introducing you to <?php echo $first_name ?>'s page</h2>
+        <ul>
+            <?php echo '
+            <li><b>First Name: </b>'.$first_name.'</li>
+            <li><b>Last Name: </b>'.$last_name.'</li>
+            <li><b>Email: </b>'.$email.'</li>
+            <li><b>Birth Year: </b>'.$birthdate.'</li>
+            <li><b>Occupation: </b>'.$occupation.'</li>
+            <li>'.$details.'</li>
+            ';?>
+        </ul>
+        <p><a href="people.php">Return to the people page</p>
     </main>
 
     <aside>
