@@ -1,6 +1,6 @@
 <?php
-include('config.php');
 include('./includes/header.php');
+include('config.php');
 ?>
 <div id="wrapper">
     <main>
