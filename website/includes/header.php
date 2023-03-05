@@ -21,7 +21,13 @@ switch(THIS_PAGE) {
 
     case 'sanrio.php' : 
     $title = 'Sanrio Database Page of our Website Project';
-    $body = 'project-inner';
+    $body = 'sanrio-inner';
+    break;
+
+
+    case 'sanrio-view.php' : 
+    $title = 'Sanrio Database View Page of our Website Project';
+    $body = 'sanrio-inner';
     break;
 
 
