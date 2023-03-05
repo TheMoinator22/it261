@@ -5,7 +5,7 @@ include('./database/config.php');
 ?>
 
 <div id="wrapper">
-    <main>
+    <!-- <main> -->
         <h1>Here are some of the most popular Sanrio characters!</h1>
 
         <?php
@@ -41,8 +41,8 @@ include('./database/config.php');
             @mysqli_close($iConn);
 
         ?>
+    <!-- </main> -->
 
-    </main>
 </div>
 <!-- end wrapper -->
 
