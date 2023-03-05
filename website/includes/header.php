@@ -19,8 +19,8 @@ switch(THIS_PAGE) {
     break;
 
 
-    case 'project.php' : 
-    $title = 'Project Page of our Website Project';
+    case 'sanrio.php' : 
+    $title = 'Sanrio Database Page of our Website Project';
     $body = 'project-inner';
     break;
 
@@ -42,7 +42,7 @@ $nav = array(
     'index.php' => 'Home',
     'about.php' => 'About',
     'daily.php' => 'Daily',
-    'project.php' => 'Project',
+    'sanrio.php' => 'Database',
     'contact.php' => 'Contact',
     'gallery.php' => 'Gallery',
 );
