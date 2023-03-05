@@ -22,10 +22,10 @@ include('./database/config.php');
                     echo '
                         <h2>Information about '.$row['name'].' </h2>
                         <ul>
-                            <li><b>Name:</b> '.$row['first_name'].' </li>
+                            <li><b>Name:</b> '.$row['name'].' </li>
                             <li><b>Birth Year:</b> '.$row['birthdate'].' </li>
                         </ul>
-                        <p>For more information about '.$row['name'].', click <a href="sanrio-view.php?id='.$row['sanrio_id'].' ">here</a></p>
+                        <p>For more information about '.$row['name'].', click <a href="sanrio-view.php?id='.$row['chara_id'].' ">here</a></p>
                     ';
 
                 } // end while
@@ -47,4 +47,4 @@ include('./database/config.php');
 <!-- end wrapper -->
 
 <?php
-include('./include/footer.php');
+include('./includes/footer.php');
