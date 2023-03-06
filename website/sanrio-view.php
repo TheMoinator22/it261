@@ -50,12 +50,10 @@ include('./includes/header.php');
             <img src="./images/sanrio<?php echo $id?>.jpg" alt="<?php echo $name ?>">
             <figcaption>
                 <?php echo '
-                    '.$name.'
+                    <i>'.$name.'<i>
                 ';?>
             </figcaption>
         </figure>
-
-        <p><i><?php echo $name ?></i></p>
 
     </aside>
 
