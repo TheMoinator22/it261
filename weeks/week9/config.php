@@ -4,6 +4,9 @@ define('DEBUG', 'TRUE');  // We want to see our errors
 
 include('credentials.php');
 
+$success = 'You have successfully logged in!';
+$errors = array("");
+
 function myError($myFile, $myLine, $errorMsg) {
 
     if(defined('DEBUG') && DEBUG) {

@@ -29,5 +29,9 @@ include('server.php');
 
         <button type="button" onclick="window.location.href='<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>'">Reset</button>
 
+        <?php include('errors.php') ?>
+
     </fieldset>
 </form>
+
+<p>Already have an account? Please <a href="login.php">Login</a></p>

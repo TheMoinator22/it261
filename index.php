@@ -246,7 +246,11 @@
                 </li>
 
                 <li>
-                    <a href="weeks/week"></a>
+                    <a href="weeks/week9/login.php">login.php</a>
+                </li>
+
+                <li>
+                    <a href="weeks/week9/index.php">index.php</a>
                 </li>
             </ul>
 
