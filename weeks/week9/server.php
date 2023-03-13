@@ -15,7 +15,7 @@ if (isset($_POST['reg_user'])) {
     $first_name = mysqli_real_escape_string($iConn, $_POST['first_name']);
     $last_name = mysqli_real_escape_string($iConn, $_POST['last_name']);
     $email = mysqli_real_escape_string($iConn, $_POST['email']);
-    $user_name = mysqli_real_escape_string($iConn, $_POST['user_name']);
+    $username = mysqli_real_escape_string($iConn, $_POST['username']);
     $password_1 = mysqli_real_escape_string($iConn, $_POST['password_1']);
     $password_2 = mysqli_real_escape_string($iConn, $_POST['password_2']);
 
@@ -31,7 +31,7 @@ if (isset($_POST['reg_user'])) {
         array_push($errors, 'Email is required');
     } // end email
 
-    if(empty($user_name)) {
+    if(empty($username)) {
         array_push($errors, 'Username is required');
     } // end username
 
@@ -46,5 +46,36 @@ if (isset($_POST['reg_user'])) {
     if($password_1 !== $password_2) {
         array_push($errors, 'Passwords are not matching');
     } // end password match
+
+    // we are checking username and password and selecting it from the table
+    $user_check_query = "SELECT * FROM users WHERE username = '$username' OR email = '$email' LIMIT 1";
+    $result = mysqli_query($iConn, $user_check_query) or die(myError(__FILE__,__LINE__,mysqli_error($iConn)));
+    $rows = mysqli_fetch_assoc($result);
+
+    if($rows) {
+
+        // we cant have duplicate usernames or emails
+        if($rows['username'] == $username) {
+            array_push($errors, 'Username already exists');
+        } // end username == username
+
+        if($rows['email'] == $email) {
+            array_push($errors, 'Email already taken');
+        } // end email == email
+
+    } // end if rows
+
+    if(count($errors) == 0) {
+        $password = md5($password_1);
+
+        $query = "INSERT INTO users (username, first_name, last_name, email, password) VALUES ('$username', '$first_name', '$last_name', '$email', '$password')";
+        mysqli_query($iConn, $query);
+
+        $_SESSION['username'] = $username;
+        $_SESSION['success'] = $success;
+
+        // if we are successful, we will be directed to our login page
+        header('Location:login.php');
+    } // end count errors
 
 } // end reg user
