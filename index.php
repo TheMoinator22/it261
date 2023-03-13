@@ -238,6 +238,18 @@
                 </li>
             </ul>
 
+
+            <h4> Week 9 </h4>
+            <ul>
+                <li>
+                    <a href="weeks/week9/register.php">register.php</a>
+                </li>
+
+                <li>
+                    <a href="weeks/week"></a>
+                </li>
+            </ul>
+
         </aside>
 
 
