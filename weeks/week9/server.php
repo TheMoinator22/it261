@@ -6,6 +6,7 @@ session_start();
 include('config.php');
 // will eventually have header include here
 // include(./includes/header.php);
+$errors = '';
 
 // this page will commincate with the database
 $iConn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die(myError(__FILE__,__LINE__,mysqli_connect_error()));
