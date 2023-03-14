@@ -4,7 +4,7 @@ include('./includes/header.php');
 ?>
 
 <div id="wrapper">
-    <h1>Login Page</h1>
+    <h1 class="center">Login Page</h1>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post">
         <fieldset>
             <label>Username</label>
@@ -21,7 +21,7 @@ include('./includes/header.php');
         </fieldset>
     </form>
 
-    <p>Haven't registered? Please visit our <a href="register.php">Registration Page</a></p>
+    <p class="center">Haven't registered? Please visit our <a href="register.php">Registration Page</a></p>
 
 </div>
 <!-- close wrapper -->

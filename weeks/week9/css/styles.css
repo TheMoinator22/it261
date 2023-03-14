@@ -1,0 +1,60 @@
+/* styles for week 9 pages */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: orchid;
+}
+
+
+#wrapper {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+
+.center {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+form {
+    max-width: 580px;
+    /* use 0 auto for centering only */
+    margin: 0 auto 20px auto;
+}
+
+
+fieldset {
+    border: 1px solid steelblue;
+    padding: 10px;
+}
+
+
+footer {
+    height: 50px;
+    line-height: 50px;
+}
+
+
+footer li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+
+#inner-footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+#inner-footer ul {
+    display: flex;
+}
