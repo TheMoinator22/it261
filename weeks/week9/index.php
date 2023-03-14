@@ -39,7 +39,7 @@ include('./includes/header.php');
     if(isset($_SESSION['username'])) :?>
 
         <div class="welcome-logout">
-            <h3>Welcome, <?php $_SESSION['username'] ?></h3>
+            <h3>Welcome, <?php echo $_SESSION['username'] ?></h3>
             <p><a href="index.php?logout='1'">Logout</a></p>
         </div>
         <!-- end logout -->
