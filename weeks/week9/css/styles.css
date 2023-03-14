@@ -12,9 +12,36 @@ body {
 }
 
 
+header {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
 #wrapper {
     max-width: 1200px;
     margin: 30px auto;
+    clear: both;
+}
+
+
+.success {
+    float: left;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 200px;
+    background: slateblue;
+    padding: 10px;
+}
+
+
+.welcome-logout {
+    float: right;
+    margin-right: 5%;
+    margin-top: 20px;
+    width: 200px;
+    background: seagreen;
+    padding: 10px;
 }
 
 
@@ -34,6 +61,19 @@ form {
 fieldset {
     border: 1px solid steelblue;
     padding: 10px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input {
+    width: 75%;
+    height: 25px;
+    margin-bottom: 10px;
 }
 
 

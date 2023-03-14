@@ -5,7 +5,7 @@ include('./includes/header.php');
 ?>
 
 <div id="wrapper">
-    <h1>Register Today!</h1>
+    <h1 class="center">Register Today!</h1>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
         <fieldset>
             <label>First Name</label>
@@ -35,7 +35,7 @@ include('./includes/header.php');
         </fieldset>
     </form>
 
-    <p>Already have an account? Please <a href="login.php">Login</a></p>
+    <p class="center">Already have an account? Please <a href="login.php">Login</a></p>
 
 </div>
 <!-- end wrapper -->

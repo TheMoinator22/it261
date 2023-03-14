@@ -15,9 +15,12 @@ if(isset($_GET['logout'])) {
 }
 
 include('./includes/header.php');
+?>
 
-// is our session success set?
-if(isset($_SESSION['success'])) :?>
+<header>
+    <?php
+        // is our session success set?
+        if(isset($_SESSION['success'])) :?>
 
     <div class="success">
         <h3>
@@ -29,19 +32,20 @@ if(isset($_SESSION['success'])) :?>
     </div>
     <!-- end success -->
 
-<?php endif;
+    <?php endif;
 
 
-// is session username set?
-if(isset($_SESSION['username'])) :?>
+    // is session username set?
+    if(isset($_SESSION['username'])) :?>
 
-    <div class="welcome-logout">
-        <h3>Welcome, <?php $_SESSION['username'] ?></h3>
-        <p><a href="index.php?logout='1'">Logout</a></p>
-    </div>
-    <!-- end logout -->
+        <div class="welcome-logout">
+            <h3>Welcome, <?php $_SESSION['username'] ?></h3>
+            <p><a href="index.php?logout='1'">Logout</a></p>
+        </div>
+        <!-- end logout -->
 
-<?php endif; ?>
+    <?php endif; ?>
+</header>
 
 
 <div id="wrapper">
