@@ -1,6 +1,6 @@
 <?php
 include('server.php');
-include(./includes/header.php);
+include('./includes/header.php');
 ?>
 
 <div id="wrapper">
